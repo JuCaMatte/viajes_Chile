@@ -145,3 +145,59 @@
   margin-bottom: 1.5rem;
 }
 
+/* Maquillado Sección Destacados */
+.card-section {
+  /* Fondo negro para la sección */
+  background-color: black;
+
+  /* Añade espacio alrededor de la sección */
+  margin-top: -20px;
+}
+
+.card.secondary-card {
+  /* background-color: black; */
+  border: 1px solid #ccc;
+  /* Borde gris */
+  color: white;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  /* Elimina el margen inferior */
+  margin-bottom: 0;
+}
+
+.card-text.grupo_2 {
+  /* Fondo celeste */
+  background-color: #6ec6ff;
+
+  color: white;
+  padding: 10px;
+  /* Borde gris superior */
+  border-top: 1px solid #ccc;
+  /* Máximo de 6 líneas */
+  max-height: 6.4em;
+  /* Oculta el exceso de texto */
+  overflow: hidden;
+  /* Muestra puntos suspensivos al final del texto */
+  text-overflow: ellipsis;
+}
+
+.card-img-top {
+  /* Altura de la imagen */
+  height: 200px;
+  /* Ajusta la imagen al tamaño del contenedor */
+  object-fit: cover;
+}
+
+/* Estilos adicionales para ajustar el espaciado */
+.card-container_2 {
+  /* Margen a la izquierda */
+  margin-left: 60px;
+  /* Margen a la derecha */
+  margin-right: 60px;
+}
+
