@@ -201,3 +201,35 @@
   margin-right: 60px;
 }
 
+/* Maquillado Sección Contacto */
+.contact-section {
+  /* Fondo negro para la sección de contacto */
+  background-color: black;
+
+  color: white;
+  /* Espaciado interior */
+  padding: 50px 0;
+}
+
+.contact-form {
+  margin: 0 auto;
+}
+
+.form-control {
+  background-color: white;
+  /* Fondo negro para los campos de entrada */
+  color: black;
+  /* Color de borde celeste */
+  border-color: #6ec6ff;
+}
+
+.btn-enviar {
+  /* Fondo celeste para el botón enviar */
+  background-color: #6ec6ff;
+  /* Letras blancas para el botón enviar */
+  color: white;
+  /* Borde celeste para el botón enviar */
+  border-color: #6ec6ff;
+  /* Espaciado superior*/
+  margin-top: 10px;
+}
