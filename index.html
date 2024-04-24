@@ -16,25 +16,49 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
   </head>
   <body>
-    <nav class="navbar navbar-dark navbar-expand-lg" id="nav">
-        <div class ="container">
-          <a href="#" class="navbar-brand">
-            <img src="/assets/img/viajes.svg" alt="logo" height="50">
-          </a>
-          <button class="navbar-toggler" data-bs-target="#mynav" data-bs-toggle="collapse">
-              spa
-          </button>
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+
+    <div class="container">
+
+      <div class="logo">
+        <img src="assets/img/viajes.svg" alt="Logo" />
+        <span class="font-roboto">
+          Viajes Chile
+        </span>
+      </div>
+
+
+      <button class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse">
+        <span id="menuBurguer"><i class="fa-solid fa-bars"></i></span>
+      </button>
+
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+
+          <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <a href="#id_carrusel" class="nav-link">Inicio</a>
+            <a href="#id_quienesomos" class="nav-link">Quiénes somos</a>
+            <a href="#id_destacados" class="nav-link">Destacados</a>
+            <a href="#id_contacto" class="nav-link">Contacto</a>
+          </div>
+
 
 
         </div>
-
-    </nav>
+      </div>
+    </div>
+  </nav>
 
 
     <!-- Boostrap JS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <!--jquery-->
     <script src="/assets/js/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
 
   </body>
 </html>

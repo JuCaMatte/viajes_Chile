@@ -1,3 +1,4 @@
+/*
 const nav = document.getElementById("nav");
 
 window.addEventListener("scroll", () => {
@@ -5,3 +6,4 @@ window.addEventListener("scroll", () => {
         ? nav.classList.add("bg-dark")
         : nav.classList.remove(bg-dark)
 })
+*/

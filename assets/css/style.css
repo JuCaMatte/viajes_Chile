@@ -1,0 +1,73 @@
+.navbar {
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  background-color: transparent;
+  /* Fondo semi-transparente */
+  color: #ffffff;
+  /* Texto blanco */
+  position: fixed;
+  /* Fijar el navbar en la parte superior */
+
+  top: 0;
+
+  /* left: 0;  Asegura que el navBar está alineadoa ala izquierda */
+
+  width: 100%;
+  z-index: 1000;
+  /* Asegúrate de que el navbar esté por encima del contenido */
+}
+
+.navbar-brand {
+  top: 0;
+  width: 40px;
+  /* Tamaño del logo */
+  height: 40px;
+}
+
+.nav-link {
+  color: white;
+}
+
+.navbar-toggler.custom-toggler .navbar-toggler-icon {
+  color: white; /* Cambia el color del ícono a blanco */
+}
+
+
+#menuBurguer {
+  color: brown;
+}
+
+.selected {
+  /* Fondo  color "aqua" para opción seleccionada del menú */
+  background-color: aqua;
+  /* Otros estilos que desees aplicar */
+  /* color del textonegro para opción seleccionada */
+  color: black;
+  /* borde redondeado */
+  border-radius: 10px;
+}
+
+.logo img {
+  width: 40px;
+  /* Tamaño del logo */
+  height: 40px;
+  margin-right: 10px;
+  /* Espaciado entre el logo y el texto */
+}
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+
+  /* Fondo transparente */
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 20px;
+  /* Espaciado entre elementos del menú */
+}
+
+.menu a {
+  color: white;
+}
