@@ -71,3 +71,77 @@
 .menu a {
   color: white;
 }
+
+/* Maquillado sección Quienes somos */
+/*.container { */
+
+#id_quienesomos {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+
+.card.primary-card {
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+  height: 300px;
+}
+
+.card-text.grupo_1 {
+  background-color: black;
+  color: white;
+  overflow: hidden;
+  /* Oculta el exceso de texto */
+  text-overflow: ellipsis;
+  /* Muestra puntos suspensivos al final del texto */
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-container_1 {
+  margin-left: 25px;
+  /* Margen a la izquierda */
+  margin-right: 25px;
+  /* Margen a la derecha */
+}
+
+.icon-top,
+.icon-bottom {
+  background-color: #6ec6ff;
+  /* celeste */
+  height: 30px;
+  width: 100%;
+}
+.icon-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.icon-bottom {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.fw-bolder {
+  font-weight: bold;
+}
+
+.display-4 {
+  /* Ajusta el tamaño de letra */
+  font-size: 2.5rem;
+}
+
+.mb-4 {
+  /* Ajusta el margen */
+  margin-bottom: 1.5rem;
+}
+
